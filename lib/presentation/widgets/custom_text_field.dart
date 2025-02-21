@@ -48,11 +48,10 @@ class CustomTextFieldState extends State<CustomTextField> {
         onChanged: widget.onChanged,
         style: TextStyle(color: Colors.black),
         decoration: InputDecoration(
-          hintTextDirection: TextDirection.rtl,
           fillColor: Colors.white,
           filled: true,
           hintText: widget.hintText,
-          floatingLabelBehavior: FloatingLabelBehavior.always,
+          // floatingLabelBehavior: FloatingLabelBehavior.always,
           hintStyle: TextStyle(color: Color(0xFF546978)),
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 24, vertical: 16),

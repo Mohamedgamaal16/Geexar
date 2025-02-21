@@ -33,7 +33,7 @@ class NewsCard extends StatelessWidget {
                       fit: BoxFit.cover,
                     )
                   : const DecorationImage(
-                      image: AssetImage('assets/placeholder.png'),
+                      image: AssetImage('assets/logo/geexar_logo.jpeg'),
                       fit: BoxFit.cover,
                     ),
             ),
