@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geexar/data/repository/articales_repo_impl.dart';
-import 'package:geexar/presentation/bloc/articles_bloc/articles_bloc.dart';
+import 'package:geexar/data/repository/articles_repo_impl.dart';
+import 'package:geexar/presentation/view_model/articles_bloc/articles_bloc.dart';
 import 'package:geexar/presentation/home_screen_body.dart';
 
 class HomeScreen extends StatelessWidget {

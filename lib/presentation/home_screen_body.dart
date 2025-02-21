@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geexar/presentation/bloc/articles_bloc/articles_bloc.dart';
+import 'package:geexar/presentation/view_model/articles_bloc/articles_bloc.dart';
 import 'package:geexar/presentation/widgets/articales_section.dart';
 import 'package:geexar/presentation/widgets/custom_text_field.dart';
 import 'package:geexar/presentation/widgets/loading_widget.dart';
