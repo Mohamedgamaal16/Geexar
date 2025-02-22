@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:geexar/data/services/service_locator.dart';
 import 'package:geexar/presentation/home_screen.dart';
 
 void main() async {
@@ -8,7 +9,7 @@ void main() async {
 
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await dotenv.load(fileName: ".env");
-
+  setupLocator();
   runApp(const MyApp());
   FlutterNativeSplash.remove();
 }

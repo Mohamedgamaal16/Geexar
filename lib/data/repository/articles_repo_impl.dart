@@ -5,9 +5,10 @@ import 'package:geexar/data/models/news_response_model.dart';
 import 'package:geexar/data/repository/articles_repo.dart';
 import 'package:geexar/data/services/exceptions.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:geexar/data/services/service_locator.dart';
 
 class ArticlesRepoImpl implements ArticlesRepo {
-  final Dio dio = Dio();
+  final Dio dio = locator<Dio>();
 
   @override
   Future<Either<List<Article>, String>> fetchArticles(String query) async {
