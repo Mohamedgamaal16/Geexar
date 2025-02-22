@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:geexar/data/repository/articles_repo_impl.dart';
+import 'package:geexar/presentation/view_model/articles_bloc/articles_bloc.dart';
 import 'package:geexar/presentation/home_screen_body.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,11 +9,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
           child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 15.0),
-        child: HomeScreenBody(),
+        padding: const EdgeInsets.symmetric(horizontal: 15.0),
+        child: BlocProvider(
+          create: (context) => ArticlesBloc(ArticlesRepoImpl()),
+          child: HomeScreenBody(),
+        ),
       )),
     );
   }

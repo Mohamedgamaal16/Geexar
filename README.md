@@ -1,17 +1,14 @@
 # geexar
 
-A new Flutter project.
+A Search Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Geexar.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Geexar
+# video for app
+
+https://github.com/user-attachments/assets/7d2b787c-6df1-4fac-84ff-abc0d2a1edae
+
